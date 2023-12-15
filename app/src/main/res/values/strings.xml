@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Game_Prueba App</string>
+    <string name="txt_welcome">WELCOME</string>
+    <string name="welcome">WELCOME</string>
+    <string name="txt_user">USER</string>
+    <string name="txt_password">PASSWORD</string>
+    <string name="txt_remember">remember</string>
+    <string name="txt_login">login</string>
+    <string name="txt_play">PLAY</string>
+    <string name="txt_score">SCORE</string>
+    <string name="txt_set">SET 1</string>
+    <string name="txt_teamA">Team A</string>
+    <string name="txt_teamB">Team B</string>
+    <string name="txtUser">User</string>
+    <string name="txt_puntos1">puntos1</string>
+    <string name="txt_puntosA">puntos_A</string>
+    <string name="txt_puntosB">puntos_B</string>
+    <string name="txt_reset">Reset</string>
+    <string name="txt_splashHi">HI</string>
+    <string name="txt_volley_ball_game">VOLLEY BALL GAME</string>
+    <string name="btnFinish">Finish</string>
+    <string name="TvPuntosB">puntos</string>
+    <string name="TvPuntosA">puntos</string>
+    <string name="txt_register_form">Register Form</string>
+    <string name="txt_identification">identification</string>
+    <string name="btn_register">register</string>
+    <string name="txt_register">Register</string>
+    <string name="txt_team_planning">team_planning</string>
+    <string name="et_name_game">name_game</string>
+    <string name="txt_name_team_a">name_team_a</string>
+</resources>

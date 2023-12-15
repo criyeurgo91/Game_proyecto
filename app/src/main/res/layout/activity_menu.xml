@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/green"
+    tools:context=".ui.MenuActivity">
+    <TextView
+        android:id="@+id/tvUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtUser"
+        android:layout_marginTop="20sp"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="200sp"
+        android:layout_height="100sp"
+        android:text="@string/txt_play"
+        android:textSize="40sp"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/btnScore"
+        android:layout_width="200sp"
+        android:layout_height="100sp"
+        android:text="@string/txt_score"
+        android:textSize="40sp"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

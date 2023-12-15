@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/green"
+    tools:context=".ui.MainActivity">
+
+    <TextView
+        android:id="@+id/text_tittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/welcome"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/titleGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/txt_volley_ball_game"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        tools:ignore="HardcodedText,TextContrastCheck" />
+    <ImageView
+        android:id="@+id/imgHome"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:src="@drawable/volleyball_img"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center"
+        android:importantForAccessibility="no" />
+
+    <EditText
+        android:id="@+id/etUser"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="30dp"
+        android:hint="@string/txt_user"
+        android:minHeight="48dp"
+        tools:ignore="Autofill,TextContrastCheck,TextFields" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/txt_password"
+        android:minHeight="48dp"
+        tools:ignore="Autofill,TextContrastCheck,TextFields" />
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_remember"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="10sp"
+        />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_login"
+        android:textSize="25sp"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/black"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:orientation="vertical"
+    tools:context=".ui.RegisterUserActivity">
+
+    <TextView
+        android:id="@+id/txt_registerForm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/txt_register_form"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        />
+    <EditText
+        android:id="@+id/etUserForm"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="30dp"
+        android:hint="@string/txt_user"
+        android:minHeight="48dp"
+        />
+
+    <EditText
+        android:id="@+id/etIdentification"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="30dp"
+        android:hint="@string/txt_identification"
+        android:minHeight="48dp"
+        />
+
+
+    <EditText
+        android:id="@+id/etPasswordForm"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="30dp"
+        android:hint="@string/txt_password"
+        android:minHeight="48dp"
+        />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_register"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        android:textSize="20dp"
+        android:backgroundTint="@color/black"
+
+        />
+
+</LinearLayout>

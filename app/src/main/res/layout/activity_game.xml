@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/green"
+    tools:context=".ui.game.GameActivity">
+
+    <TextView
+        android:id="@+id/txt_set1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_set"
+        android:textSize="40sp"
+        android:layout_marginTop="30sp"
+        android:layout_gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20sp"
+        >
+        <TextView
+            android:id="@+id/txt_teamA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_teamA"
+            android:textSize="35sp"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="20sp"
+            />
+        <TextView
+            android:id="@+id/txt_teamB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_teamB"
+            android:textSize="35sp"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="20sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20sp"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            app:cardCornerRadius="100sp"
+            android:backgroundTint="@color/black"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="20sp"
+            >
+            <TextView
+                android:id="@+id/txtPuntosA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/TvPuntosA"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card2"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            app:cardCornerRadius="100sp"
+            android:backgroundTint="@color/black"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="20sp"
+            >
+            <TextView
+                android:id="@+id/txtPuntosB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/TvPuntosB"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="100sp"
+        >
+
+        <Button
+            android:id="@+id/btn_puntosA"
+            android:text="@string/txt_puntosA"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30sp"
+            android:layout_marginEnd="30sp"
+            android:backgroundTint="@color/black"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:id="@+id/btn_puntosB"
+            android:text="@string/txt_puntosB"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30sp"
+            android:layout_marginEnd="30sp"
+            android:backgroundTint="@color/black"
+            tools:ignore="ButtonStyle" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:text="@string/txt_reset"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50sp"
+        android:backgroundTint="@color/black"
+        />
+
+    <Button
+        android:id="@+id/btn_finish"
+        android:text="@string/btnFinish"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50sp"
+        android:backgroundTint="@color/black"
+        />
+
+
+
+</LinearLayout>
